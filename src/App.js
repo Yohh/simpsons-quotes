@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className="App">
-      <button type="submit" onClick={getQuote}>
+      <button onClick={getQuote}>
         search
       </button>
       <SearchQuote {...simpsonQuote} />

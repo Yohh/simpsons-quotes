@@ -4,7 +4,7 @@ const SearchQuote = ({ character, image, quote }) => {
   return (
     <div>
       <p>{character}</p>
-      <img src={image} className="photo" />
+      <img src={image}/>
       <p>{quote}</p>
     </div>
   );
